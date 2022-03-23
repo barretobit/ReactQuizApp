@@ -3,15 +3,22 @@ import React from "react";
 const Footer = () => (
   <footer className="text-center fixed-bottom p-3">
     <small>
-      Made with{" "}
-      <span className="text-danger fas fa-heart" aria-hidden="true"></span>
-      <span className="sr-only">love</span> by{" "}
+      Power by{" "}
+      <span className="sr-only"></span>{" "}
       <a
-        href="https://github.com/davidoluseun"
+        href="https://github.com/barretobit"
         target="_blank"
         rel="noopener noreferrer"
       >
-        AOD
+        RandomBit
+      </a>
+      {" "} - {" "}
+      <a
+        href="https://randombit.pt"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        www.randombit.pt
       </a>
     </small>
   </footer>
